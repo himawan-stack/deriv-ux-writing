@@ -1,0 +1,438 @@
+✅ Preferred copy,Component slot,Component type,Description,Intent,Product,Screenshot,Status,UX Element,Unique ID,❌ Less preferred copy
+Confirm the transfer,Title,Page section,A title in a subsection of the transfer flow where user is asked to check again the transfer details,Guidance,UAE,,Done,Section title,1,Transfer confirmation
+Add funds,CTA,Page section,A button / call to action to encourage users to add money to their balance / Wallet,Guidance,UAE,,Done,,2,"• Add money
+• Top up money
+• Top up funds"
+Identity verification in progress,Body,Modal / Bottomsheet,A success state / message when user has passed their liveness check during KYC process,Success,UAE,,Done,Action screen: description,3,Identity verification under review
+You’re transferring,Title,Page section,A title in a subsection where user wants to transfer money,Guidance,UAE,,Done,Sub-section title,4,"Transfer amount
+Not to confuse with: Transferred amount"
+You’ve passed your liveness check.,Title,Modal / Bottomsheet,A success state / message when user has passed their liveness check during KYC process,Success,UAE,,Done,Action screen: title,5,Liveness check passed successfully.
+Total balance,Label,Page section,"A small text in a page, usually above the total amount of money that user has gathered in their Wallet",Guidance,UAE,,Done,Section title,6,Total assets
+Some features won’t be available until your account is verified.,CTA,Modal / Bottomsheet,A success state / message when user has passed their liveness check during KYC process,Success,UAE,,Done,Action screen: description,7,Some features will be available only if your account is verified.
+You’ll receive,Title,Page section,A title in a subsection where user sees the amount of money the receiver will get,Guidance,UAE,,Done,Sub-section title,8,Transfer received
+Not a UAE resident?,,,,,UAE,,Done,Ghost button,9,I am not a UAE resident
+<amount> <currency> transferred from your <currency> Wallet.,Label,Coachmark,A short message explaining the details of user’s successful transfer,Success,UAE,,Done,Action screen: description,10,You’ve transferred <amount> <currency> from your <currency> Wallet.
+Verification in progress,,,,,UAE,,Done,Action screen: title,11,"• Verifying your details
+• Verification under review"
+"To authorise your withdrawal, enter the code sent to <phone_number>.",,,,,UAE,,Done,Divider text,12,
+Add funds to your Wallet so you can transfer to MT5.,,,,,UAE,,Done,Action screen: description,13,
+Check your profile for updates on your account status.,,,,,UAE,,Done,Action screen: description,14,
+Go to Wallets,,,,,UAE,,Done,,15,See Wallets
+Processing your <amount> <currency> deposit,,,,,UAE,,Done,Action screen: title,16,Your deposit of <amount> <currency> is processing
+We’ll notify you when it’s complete.,,,,,UAE,,Done,Action screen: description,17,
+Make a deposit,,,,,UAE,,Done,Action screen: title,18,Deposit funds
+Transfer successful,Title,Page section,A title where the user has done transferring successfully,Success,UAE,,Done,Action screen: title,19,Successfully transferred
+Receive from which account?,,,,,UAE,,Done,Section sub-title,20,Trading accounts
+"Once updated, you can use the new email for your next login.",,,,,UAE,,Done,Page body,21,
+Deposited amount,,,,,UAE,,Done,Sub-section title,22,Deposit amount
+Withdrawn amount,,,,,UAE,,Done,Sub-section title,23,Withdrawal amount
+"You can log in after the remaining time has passed. If you believe this is a mistake, contact us via live chat.",Body,Modal / Bottomsheet,A further description when user’s access to Deriv account is paused for a while because they do not choose to accept the risk warning.,Confirmation,UAE,,Done,Action screen: description,24,
+"To deposit and start trading, verify your identity.",,,,,UAE,,Done,"Error, warning",25,
+Transferred amount,,,,,UAE,,Done,Sub-section title,26,Transfer amount
+Upload a coloured photo or file,,,,,UAE,,Done,,27,
+Send to which account?,,,,,UAE,,Done,Section sub-title,28,Trading accounts
+Access temporarily paused,Title,Modal / Bottomsheet,A title when user’s access to Deriv account is paused for a while because they do not choose to accept the risk warning.,Confirmation,UAE,,Done,Action screen: title,29,
+Take a photo in a well-lit room,,,,,UAE,,Done,,30,Make sure your photo is well-lit
+Enter the verification code sent to <email_address>.,,,,,UAE,,Done,Divider text,31,
+Enter the address shown on your proof of address document.,,,,,UAE,,Done,Page body,32,
+"It seems you’ve chosen not to accept the risk warning. To ensure responsible trading, we’ve temporarily paused your account access.",Body,Modal / Bottomsheet,A description when user’s access to Deriv account is paused for a while because they do not choose to accept the risk warning.,Confirmation,UAE,,Done,Action screen: description,33,
+The amount will be credited to your MT5 account once the transfer is complete.,,,,,UAE,,Not started,Action screen: description,34,The amount will be credited to your MT5 account once the transfer is completed.
+We couldn’t process your withdrawal. Try again later.,,,,,,,Not started,Action screen: description,35,
+Suitability score,Title,Page section,A light text on trading suitability context about the result that user gets after they do KYC or when we finish assessing their suitability to trade with Deriv.,Guidance,UAE,,Done,Action screen: title,36,Trading suitability score
+Your transfer of <amount> AED is in process,,,,,UAE,,Not started,Action screen: title,37,Your transfer of <amount> AED is processing
+Withdrawal unsuccessful,,,,,UAE,,Not started,Action screen: title,38,
+Need help? Contact us via live chat.,Label,Coachmark,"A small text explaining that in case the user needs any help, they can contact our team 24/7. We don’t say “support team” or “CS team.” We say “live chat,” as stated in our official website.",Guidance,UAE,,Done,Action screen: description,39,Need help? Contact our support team.
+Not enough funds in your AED Wallet for a withdrawal. Want to make a deposit instead?,,,,,UAE,,Not started,Warning body,40,
+You can still transfer up to <amount> AED between your Wallet and trading account today.,,,,,UAE,,Not started,Warning body,41,
+Complete assessment,,,,,UAE,,Not started,Warning title,42,
+"Daily withdrawal limit: [Limit] AED
+You can still withdraw up to <amount> AED today.",,,,,UAE,,Not started,Warning title,43,
+Insufficient <currency> Wallet balance,,,,,UAE,,Not started,Warning title,44,
+Unlock all features with a quick evaluation of your trading suitability.,,,,,UAE,,Not started,Warning body,45,
+"By creating an account, you confirm that you are 18+, agree to our Terms and conditions, and accept that we may send you updates and marketing materials (see Security and privacy policy).",Checkbox,Modal / Bottomsheet,A checkbox text when user’s access to Deriv account is paused for a while because they do not choose to accept the risk warning.,Confirmation,UAE,,Done,Checkbox T&c,46,
+We’ve analysed your answers to assess if trading is suitable for you.,Body,Page section,A light text on trading suitability context about the result that user gets after they do KYC or when we finish assessing their suitability to trade with Deriv.,Guidance,UAE,,Done,Action screen: description,47,"Based on your responses, we’ve assessed your trading suitability."
+Use your MT5 password to activate your MT5 Standard account.,Helper,Page section,A divider or helper text to inform user to use their MT5 password to log in to their MT5 standard account,Guidance,UAE,,Done,Divider text,48,MT5 Standards / MT5 Std / MT5 standard
+Try again,CTA,Modal / Bottomsheet,A button on any component type to indicate the user can try again after a failed attempt,Guidance,UAE,,Done,,49,"• Reverify
+• Retry"
+Go Home,CTA,Modal / Bottomsheet,A button on any component type that indicates the user has to go back home from a specific screen / action,Guidance,UAE,,Done,,50,Return to Home
+Enter your email or phone number to get a confirmation OTP.,,,,,,,Not started,Action screen: description,51,
+Limit reached,,,,,UAE,,Not started,Action screen: title,52,
+"Address verification in progress
+Some features won’t be available until your account is verified.",,,,,UAE,,Not started,,53,
+Need to reset password?,,,,,UAE,,Not started,Action screen: title,54,Forgot password?
+Your address can’t be verified yet since your identity verification failed. Contact us via live chat for help.,,,,,,,Not started,Action screen: description,55,
+Unregistered details,,,,,UAE,,Not started,Action screen: title,56,Wrong email?
+The code will only be delivered if the email or phone number was used during signup.,,,,,,,Not started,Action screen: description,57,We send the code to your account email. New here? Sign up.
+Verify your details,,,,,UAE,,Not started,Action screen: title,58,Verify your details
+Verification paused,,,,,UAE,,Not started,Action screen: title,59,
+"Account not verified
+We couldn’t verify your details. Contact us via live chat for help.
+[Open live chat]
+[Close]",,,,,UAE,,Not started,,60,
+"ID verification failed
+Maximum number of ID verification attempts reached. Contact us via live chat for help.
+[Open live chat]
+[Maybe later]",,,,,UAE,,Not started,,61,
+Finish setting up your account by verifying your address.,,,,,,,Not started,Action screen: description,62,We’ve verified your identity. Verify your address to complete your account setup.
+"You’ve reached the maximum number of submission attempts. To continue, contact us via live chat.",,,,,,,Not started,Action screen: description,63,
+"Welcome aboard!
+Your demo account is ready. Set up your real account and add funds to start trading.",,,,,Champion,,Not started,,64,
+Set up real account,,,,,Champion,,Not started,,65,
+Passwords do not match.,,,,,Champion,,Not started,Password input with custom Field error,66,
+Proof of identity,,,,,Champion,,Not started,,67,Identity proof
+Verify your address and identity to use Deriv P2P.,,,,,P2P,,Not started,Field error,68,Your proof of address and proof of identity to continue using Deriv P2P services.
+"Let’s pause for a bit
+You can request another code in x:xx minutes.
+or
+Sign up with email",,,,,Champion,,Not started,,69,
+"We’re verifying your details
+While we’re at it, build your trading profile to get started.
+[Continue]",,,,,Champion,,Not started,,70,
+Make sure your full name and date of birth match your ID.,,,,,Champion,,Not started,,71,
+Affiliates earn a proportion of Deriv’s revenue,,,,,Master Partners,,Not started,Page body,72,
+"Let’s confirm your details
+Provide the following:
+• Proof of identity
+Take a selfie and upload your ID.
+• Address
+Use your location to confirm where you live.",,,,,Champion,,Not started,,73,
+Explore with demo,,,,,Champion,,Not started,Ghost button,74,
+Enter the correct password.,,,,,Champion,,Not started,Password input with custom Field error,75,
+Enter your current address to ensure a smooth verification process.,,,,,Champion,,Not started,,76,
+"Let’s get you secured
+Complete your P2P profile to enjoy secure transactions.",,,,,,,Not started,,77,
+Mobile trading with Deriv GO,,,,,,,Not started,Action screen: title,78,Download Deriv GO App
+"Didn’t get the code?
+Check your:
+Spam or junk folder
+The code might be there.
+Firewalls and filters
+They could block our emails.",,,,,Champion,,Not started,,79,
+Your proof of identity is verified.,,,,,,,Not started,Inline message,80,
+Your identity document is expired. Submit new identity details to unlock your account.,,,,,,,Not started,Inline message,81,
+In review,,,,,,,Not started,Inline message,82,
+Leaving Trader’s Hub,,,,,,,Not started,,83,
+We’ll review your identity details within 5 minutes.,,,,,,,Not started,Inline message,84,
+Download Deriv GO and dive into trading on your mobile,,,,,,,Not started,Action screen: description,85,Start trading with your Deriv GO account on your phone
+Failed,,,,,,,Not started,Inline message,86,
+Your details did not clear our checks. Resubmit your details to unlock your account.,,,,,,,Not started,Inline message,87,
+Already have Deriv GO? Open the app and trade now.,,,,,,,Not started,,88,
+"• Get it on Google Play
+• Download on the App Store
+• Explore it on AppGallery (Huawei)",,,,,,,Not started,,89,
+Learn about these trade types,,,,,,,Not started,,90,Learn more
+Need help with tax info? Let us know via live chat.,,,,,,,Not started,Inline message,91,
+"We’ll take you to the <store> to install Deriv GO if it’s not on your device yet. If it is installed, it’ll launch automatically.spotify",,,,,,,Not started,,92,
+Submit a document to verify your address.,,,,,,,Not started,Inline message,93,
+Verified,,,,,,,Not started,Inline message,94,
+Need verification,,,,,,,Not started,Inline message,95,
+Submit your identity details to complete your profile. We’ll only take a few minutes to verify your details.,,,,,,,Not started,Inline message,96,
+Your proof of identity has failed.,,,,,,,Not started,Inline message,97,
+Change between demo and real accounts anytime.,,,,,,,Not started,Tooltip,98,
+Manage your funds,,,,,,,Not started,Tooltip,99,
+Create new currency accounts,,,,,,,Not started,Tooltip,100,
+Switch accounts,,,,,,,Not started,Tooltip,101,
+Proof of identity verification failed.,,,,,,,Not started,Inline message,102,Your proof of identity has failed.
+Get a demo CFDs account,,,,,,,Not started,Tooltip,103,
+"When you’re ready, get a real account and trade with real money.",,,,,,,Not started,Tooltip,104,
+This rate will change according to the market rate.,,,,,,,Not started,Tooltip,105,
+Trade options risk-free,,,,,,,Not started,Tooltip,106,
+Submit your identity details to complete your profile.,,,,,,,Not started,Inline message,107,
+Practise trading CFDs with virtual funds on these powerful platforms.,,,,,,,Not started,Tooltip,108,
+Switch to real trading,,,,,,,Not started,Tooltip,109,
+"Easily make deposits, withdrawals, and transfers.",,,,,,,Not started,Tooltip,110,
+"The market rate may change from the rate shown here. If the market rate changes too much, we won’t be able to process your order.",,,,,,,Not started,Inline message,111,"If the market rate changes from the rate shown here, we won’t be able to process your order."
+Your proof of identity is verified.,,,,,,,Not started,Inline message,112,
+Practise trading with virtual money on these platforms.,,,,,,,Not started,Tooltip,113,
+"Your details match an existing account. If you need help, contact us via live chat.",,,,,,,Not started,Action screen: description,114,
+Diversify your portfolio with accounts in various currencies.,,,,,,,Not started,Tooltip,115,
+"Our platform offers exclusive indices designed to mimic real-world market movements. Backed by a secure, random number generator, these trades can happen 24/7 and are unaffected by regular market hours, global events, or liquidity concerns.",,,,,,,Not started,,116,
+Trade digital currencies without owning them and potentially profit by predicting their price movements. Dive into the highly liquid digital currency market!,,,,,,,Not started,,117,
+This account offers CFDs with zero spreads on financial and derived instruments.,,,,,,,Not started,"Action screen: description, Inline message",118,Zero spread CFDs on selected financial and derived instruments.
+"Something went wrong. Please try again later or log in using your email and password or via Google, Facebook or Apple.",,,,,,,Not started,Action screen: description,119,
+Your details match an existing account. You’ll not be able to make deposits and trade with this account.,,,,,,,Not started,Action screen: description,120,
+Level up your forex trading with our app. Dive deep into the forex market and pinpoint the hottest currency pairs to trade. Our built-in forex charts empower you to craft winning forex trading strategies and make informed trading decisions. Choose between long-term or day trading on the forex market with a regulated online forex broker trusted by millions.,,,,,Deriv GO,,Not started,,121,
+Something went wrong. Please try again later.,,,,,,,Not started,Action screen: description,122,
+Account already exists,,,,,,,Not started,Action screen: title,123,
+"Never miss a move: Get push notifications to stay on top of your trades, even when you're away.",,,,,,,Not started,,124,
+Go to live chat,,,,,,,Not started,,125,
+No orders found,,,,,"Past Order, Trader’s Hub",,Not started,Empty state,126,You’ve made no transactions of this type during this period.
+"Get a Deriv account, choose your platform, and start trading.",,,,,,,Not started,Tooltip,127,
+This account offers CFDs on derived and financial instruments.,,,,,,,Not started,Action screen: description,128,This MFSA-regulated account offers CFDs on derived and financial instruments.
+"Practice trading foreign exchange (forex), digital currency, and related indices with a demo account preloaded with US$10,000 in virtual funds.",,,,,,,Not started,,129,
+Start with a Deriv account,,,,,,,Not started,Tooltip,130,
+"Place orders faster
+We’ve improved the parameters on the Set order page, making it easier to place new orders.",,,,,Deriv GO,,Not started,Release note,131,
+"Confirm your number
+We’ll send a verification code to
+<number>",,,,,,,Not started,,132,
+"Cleaner start page
+Discover a start page that’s all about clarity and speed. Shift your focus from searching to smarter trading.",,,,,Deriv GO,,Not started,Release note,133,
+"Trader’s Hub
+Experience a smoother trading journey with the integration of Trader’s Hub in Deriv GO.",,,,,Deriv GO,,Not started,Release note,134,
+"Confirm it’s you
+We’ve sent you a verification code at <email>. Enter the code sent to your inbox or click the email link to verify instantly.",,,,,,,Not started,,135,
+"Confirm your number
+Enter the 6-digit sent to you via [Whatsapp/SMS] on:
+<number>
+This code is valid for 60 seconds.",,,,,,,Not started,,136,
+"Confirm your number
+Enter a valid phone number to receive the verification code.",,,,,,,Not started,,137,
+"Use our risk-management tools like stop loss, take profit, and order cancellation to safeguard your funds.",,,,,,,Not started,,138,
+"Quick start
+Set up a real account instantly from Deriv GO’s home page and jump into trading faster.",,,,,Deriv GO,,Not started,Release note,139,
+"Enhanced app performance
+We’ve optimised data usage and fixed bugs for a smoother trading experience.",,,,,Deriv GO,,Not started,Release note,140,
+"One-tap account switching
+Switch between your demo and real accounts with a single tap. Perfect for testing your strategies and jumping into the market when you’re ready.",,,,,Deriv GO,,Not started,Release note,141,
+You’ve reached the maximum limit for crypto transfers. Verify your identity to make more transfers.,,,,,Deriv GO,,Not started,warning,142,
+"To make a transfer, you’ll need:
+• A Deriv Apps account linked to your Demo Wallet,
+or
+• Another wallet in any currency",,,,,Deriv GO,,Not started,Modal,143,
+Trading is risky. You should consider whether you understand how these products work and whether you can afford to take the high risk of losing your money.,,,,,,,Not started,,144,
+"Experience improved security
+Take a few seconds to verify your phone number and add an extra layer of security to your account.
+[Verify now]
+[Skip]",,,,,,,Not started,,145,
+"We are a regulated broker with 25 years of experience, a community of 2.5 million trusted clients, and a pioneer in the online trading industry. Our suite of online trading platforms, including Deriv X, Deriv cTrader, SmartTrader, Deriv Trader, and Deriv Bot, caters to a diverse market, offering the ability to trade forex, commodities, stock indices, derived indices, and other digital assets. Our Deriv MT5 platform brings the MetaTrader 5 trading experience, allowing beginners and seasoned traders to trade.",,,,,,,Not started,,146,
+"New trade type: Accumulators
+An engaging, fast-paced trade type. Gain up to 5% compounded growth per tick if the market price stays within the barriers. Available on 24/7 synthetics.",,,,,Deriv GO,,Not started,Release note,147,
+Sign up for free,,,,,,,Not started,,148,Get a free account
+"Let’s get you started
+To add a passkey, first set up a Face ID, Touch ID, or Passcode on your device.",,,,,,,Not started,,149,
+"Passkey successfully removed
+Your passkey is successfully removed. To avoid sign-in prompts, also remove the passkey from your iCloud Keychain.",,,,,,,Not started,,150,
+"Get added protection
+Verify your phone number for extra security. It’ll only take a few seconds.
+[Verify now]",,,,,,,Not started,,151,
+"Passkey successfully removed
+Your passkey is successfully removed. To avoid sign-in prompts, also remove the passkey from your Google Password Manager.",,,,,,,Not started,,152,
+"Verification link sent!
+Check your email <add client email> for the verification link to remove your passkey.",,,,,,,Not started,,153,
+"Verify your request
+We'll send you a secure link to verify your request. Press it to confirm you want to remove the passkey. This protects your account from unauthorised requests.
+[Send email]",,,,,,,Not started,,154,
+"Keep your account secure
+Your password must contain:
+• 8–25 characters
+• Upper and lowercase letters
+• At least one number
+Note: use symbols for a stronger password.",,,,,,,Not started,,155,
+"Cancel phone number verification?
+All details entered will be lost.
+[Yes, cancel]
+[Go back]",,,,,,,Not started,,156,
+"No passkeys found
+No passkeys found for [platform name] on this device. To add a passkey, log in to your account and set it up.",,,,,,,Not started,,157,
+"Confirm your number
+<number> is associated with another account. Tap Edit to enter a different phone number or contact us via live chat if this is an error.",,,,,,,Not started,,158,
+"What are passkeys?
+Passkeys are a security measure that lets you log in the same way you unlock your device: with a fingerprint, a face scan, or a screen lock PIN. 
+Why passkeys?
+Passkeys are an added layer of security that protects your account against unauthorised access and phishing attacks.
+How to create a passkey?
+Go to Account Settings on [platform name] to set up your passkey. Each device can only save one passkey. However, iOS users may still see the Create passkey button due to iOS’s ability to save passkeys on other devices.
+Where are passkeys saved?
+Passkeys are saved in Google Password Manager for Android devices and in iCloud Keychain on iOS devices to help you sign in on other devices. 
+What happens if I change my Deriv account email?
+Even if you change your email address, you can still continue to log in to your Deriv account with the same passkey. 
+Before using passkeys:
+• Enable screen lock on your device.
+• Sign in to your Google or iCloud account. 
+• Enable Bluetooth.
+[Create passkey]",,,,,,,Not started,,159,
+"Unable to set up passkey
+Your passkey setup failed due to a possible interruption or session expiry. Please try again.",,,,,,,Not started,,160,
+"Effortless login with passkeys
+1. No need to remember a password
+2. Sync across all devices
+3. Better security with biometrics or screen lock
+Learn more about passkeys.",,,,,,,Not started,,161,
+"Check your passkey
+We couldn’t sign you in using that passkey as it is not linked to your [platform name] account. Remove the existing passkey from your Google Password Manager and create a new passkey.",,,,,,,Not started,,162,
+"No passkey found
+To enhance your security, tap Create passkey below.
+Learn more about passkeys here.",,,,,,,Not started,,163,
+We’ve sent your e-book. Check your email to download it.,,,,,Trader’s Hub,,Not started,Banner,164,
+Easily exchange USD with local currency using Deriv P2P,,,,,,,Not started,Default section message without CTA,165,Buy and sell USD with your local currency via Deriv P2P.
+You’re almost there!,,,,,Wallets,,Not started,Action screen: title,166,
+Enjoy seamless transactions across multiple currencies and an intuitive user interface with funds segregation.,,,,,,,Not started,Action screen: description,167,
+Log in to the cTrader platform with your Deriv email and password.,,,,,,,Not started,,168,Use your Deriv account email and password to login into the cTrader platform.
+"Success!
+Your account is now secured with a passkey. Manage your passkey through your [platform name] account settings.",,,,,,,Not started,,169,
+"Earn a USD 100 when your new referred client deposits a total of USD 100 (or its equivalent) into their Deriv account, either all at once or over time.",,,,,Deriv website,,Not started,,170,"You earn USD 100 when your new referred client deposits and trades a total amount of USD 100 or its equivalent into their Deriv account, either in one deposit or cumulatively."
+We’ve sent your e-book to your email. You can also download it here.,,,,,Trader’s Hub,,Not started,Banner,171,Your e-book has been emailed to you and is ready for your download.
+Why Wallets,,,,,,,Not started,Action screen: title,172,
+"We’ve introduced additional password requirements to increase your account security. Your password should:
+• Be between 8 to 16 characters.
+• Contain at least one special character.
+If your current password doesn’t match these requirements, you’ll need to create a new one in the next step.",,,,,MT5,,Not started,Info filled inline message,173,Please note that you may need to update your password in the next step if it does not match our new password security requirements of having 8 to 16 characters and a special character.
+"To complete your Wallet setup, log out and then log in again.",,,,,Wallets,,Not started,Action screen: description,174,
+"Deposit, Transfer, Trade
+• Better funds segregation
+• Instant transfers between Wallets and trading accounts
+• Multiple currency support",,,,,,,Not started,Action screen: description,175,
+"Level up your security!
+Strengthen your account’s security today with the latest passkeys feature.",,,,,,,Not started,,176,
+Your new investor password is the same as your main MT5 password. Choose a different one.,,,,,,,Not started,,177,Your new investor password is the same as your main MT5 password. Please choose  a different password.
+You’ll see these details once the contract starts.,,,,,SmartTrader,,Not started,"Field error, Inline message",178,
+Log out,,,,,Wallets,,Not started,,179,
+Introducing Wallets,,,,,Wallets,,Not started,Action screen: title,180,
+Use this password to log in to all your Deriv MT5 accounts.,,,,,,,Not started,Action screen: description,181,Use this password to log in to your Deriv MT5 accounts.
+Floating exchange rate shifts with market fluctuations.,,,,,,,Not started,,182,
+Attention: Rate fluctuation,,,,,P2P,,Not started,Action screen: title,183,
+Order unsuccessful,,,,,P2P,,Not started,Action screen: title,184,
+Complete your financial assessment,,,,,,,Not started,,185,
+Your proof of identity is in review,,,,,UAE,,Not started,Action screen: title,186,Your proof of identity is being reviewed
+The video is unavailable now.,,,,,,,Not started,,187,Video temporarily unavailable
+Download e-book,,,,,,,Not started,,188,
+<Payment method> is similar to an available P2P payment option. Try entering a different payment method.,,,,,,,Not started,Field error,189,
+Cut ad creation by replicating ads,,,,,,,Not started,Release notes: Title,190,
+We’re unable to create your oder because the market rate has moved too much. Please try creating a new order.,,,,,P2P,,Not started,Action screen: description,191,
+Create a new order,,,,,P2P,,Not started,,192,
+"To keep your account active, take a moment to complete this assessment.",,,,,Trader’s Hub,,Not started,Inline message: warning,193,
+The <payment method> details you entered are already in use by another advertiser. Use different details or contact us via live chat for further assistance.,,,,,,,Not started,Field error,194,
+Continue with order,,,,,P2P,,Not started,,195,
+"You are creating an order to (buy/sell) USD 0.00 for <currency> 0.00.
+
+
+The exchange rate may vary slightly due to market fluctuations. The final rate will be shown when you proceed with your order.
+Note: If the rate changes significantly, we may not be able to create your order.",,,,,P2P,,Not started,Action screen: description,196,
+Your identity verification is in progress,,,,,UAE,,Not started,Action screen: title,197,Your identity verification is progressing
+Control your ads with custom terms,,,,,,,Not started,Release notes: Title,198,
+Enter your passport number and its expiry date.,,,,,Partner’s Hub,,Not started,Message,199,
+Enter your driving licence number and its expiry date.,,,,,Partner’s Hub,,Not started,Message,200,Enter your Driving licence number and the expiry date.
+This device doesn’t support passkeys. Choose a different login method.,,,,,,,Not started,,201,
+Passwords match,,,,,,,Not started,,202,
+We’ll review your documents and notify you of its status within 1–3 days.,,,,,Partner’s Hub,,Not started,Action screen: description,203,
+Upload both of the following documents:,,,,,Partner’s Hub,,Not started,Message,204,
+Passkey setup failed,,,,,,,Not started,,205,
+"Face forward. If you wear glasses, remove them.",,,,,,,Not started,Message,206,Face forward and remove your glass if necessary.
+Your links for promoting Deriv will be checked by your account manager.,,,,,Partner’s Hub,,Not started,Message,207,Your links for promotion will be checked by your account manager.
+Passkey login unavailable,,,,,,,Not started,,208,
+"Remember, selfies, pictures of your house, or unrelated images will be rejected.",,,,,Partner’s Hub,,Not started,Action screen: description,209,"Remember, selfies, pictures of your house, or non-related images will be rejected."
+This device doesn’t support passkeys.,,,,,,,Not started,,210,
+You can now define optional terms and conditions to filter who can view and place orders on your ads.,,,,,,,Not started,Release notes: Description,211,
+Your proof of identity was submitted successfully,,,,,Partner’s Hub,,Not started,Action screen: title,212,
+"Quickly create new ads by copying existing ones, saving time and reducing errors. Adjust rates and order amounts in seconds.",,,,,,,Not started,Release notes: Description,213,
+We accept only the following types of documents as proof of your address.,,,,,Partner’s Hub,,Not started,Message,214,We accept only these types of documents as proof of your address.
+"Due to business changes, client accounts in Senegal are to be closed. Deposits and trading are disabled. Withdraw your funds by [DD Mmm YYYY].",,,,,Trader’s Hub,,Not started,Banner: Warning message,215,
+Our cryptocurrency service is currently offline. Try again later.,,,,,Trader’s Hub,,Not started,Empty state: Body,216,
+"Business hours
+Choose when you’re available to accept orders. Your ads will only be visible during these times.",,,,,P2P,,Not started,"Action screen, pop up",217,"Business hour
+You will only accept orders during business hours, and your ads will not be available outside of these hours."
+"Start time – End time (e.g., Monday: 8:00 am–12:00 pm).",,,,,P2P,,Not started,"Action screen, pop up",218,
+"Self-exclusion unavailable
+To enable self-exclusion, close any open trades.",,,,,Trader’s Hub,,Not started,"Action screen, pop up",219,
+Some ads may have a delay before becoming visible to potential buyers.,,,,,P2P,,Not started,"Action screen, pop up",220,
+GrabPay is a supported payment method. Press Continue to add.,,,,,,,Not started,Action screen: description,221,GrabPay is available as a payment method option. Please continue with this option to add your payment method.
+You can only place orders on other ads during your set business hours.,,,,,P2P,,Not started,"Action screen, pop up",222,
+Trading disabled,,,,,,,Not started,,223,
+Enter no more than 50 characters,,,,,,,Not started,Error message,224,
+Edit business hours,,,,,P2P,,Not started,CTA,225,
+Deposits disabled,,,,,Trader’s Hub,,Not started,Error message: title,226,
+"Due to business changes, client accounts in Senegal are to be closed. Withdraw any remaining funds by [DD Mmm YYYY].",,,,,Trader’s Hub,,Not started,Error message: description,227,
+Add GrabPay,,,,,,,Not started,Action screen: title,228,
+"Final step: Release of funds
+Have you received <local currency> <amount> from <buyer’s_name> in your bank account or e-wallet? Click Release funds to transfer USD <amount> to <buyer’s_name>. Please note: this action cannot be undone.",,,,,P2P,,Not started,,229,
+Maintenance in progress,,,,,Trader’s Hub,,Not started,Empty state: Title,230,
+"Transfer funds to crypto
+AUD accounts won’t be available after <DD Mmm YYYY>",,,,,Trader’s Hub,,Not started,Notification,231,
+Bot running,,,,,Deriv Bot,,Not started,Progressive load,232,Seeking contract
+"Enhanced Deriv P2P balance information
+Your Deriv P2P balance display has become more detailed. Now, you can see a clearer breakdown of your Deriv P2P balance, making it easier to understand your funds’ sources.",,,,,,,Not started,,233,
+Your verification code is: [OTP]. This code is valid for 10 minutes.,,,,,All,,Not started,"SMS, notif",234,
+Enter your tax identification number,,,,,Trader’s Hub,,Not started,Placeholder,235,"• Enter your Tax identification number
+• Enter your Tax Identification Number
+• Enter your Tax Identification Number (TIN
+• Enter your TIN"
+Tax identification number format is incorrect.,,,,,,,Not started,Error message,236,Tax identification number format is invalid.
+"Your Deriv P2P balance is made up of:
+• Funds you received from buying USD on Deriv P2P.
+• Profits from your trades, which you can sell to other Deriv P2P users.
+• Deposits you made through non-reversible payment methods.
+Note: Funds deposited using reversible payment methods, like credit cards, Maestro, Diners Club, ZingPay, Skrill, Neteller, Ozow, and UPI QR, will not appear in your P2P balance.",,,,,P2P,,Not started,Action screen,237,"Your Deriv P2P balance only includes deposits that can’t be reversed.
+Deposits via cards and the following payment methods aren’t included: Maestro, Diners Club, ZingPay, Skrill, Neteller, Ozow, and UPI QR."
+"Ad not available
+Orders can only be placed during the advertisers’ set business hours. Try again later.",,,,,P2P,,Not started,Action screen: Title and description,238,
+"Add a new paskey
+To add a new passkey, log in with your fingerprint, face ID, another device, or a security key.",,,,,All products,,Not started,Action screen: Title and description,239,"Add a new paskey
+Log in using the biometrics saved on this device, like facial recognition or fingerprint unlock. Alternatively, you can use another device or a physical security key to access your account."
+"Passkey not detected
+This passkey isn’t linked to your Deriv account. Remove it from your password manager and create a new one in account settings.",,,,,All products,,Not started,Error message,240,"Invalid passkey
+We couldn’t sign you in with that passkey because it isn’t linked to this Deriv account. Please remove it from your password manager and create a new one in Account Settings."
+"Switch to demo account
+I will set up my real account later.",,,,,,,Not started,Action screen: Title and description,241,"Take me to Demo account
+I will setup my real account later."
+"Security verification
+We need to verify your identity before removing this passkey.",,,,,,,Not started,,242,
+Your bot is running and waiting for a signal to buy a contract.,,,,,Deriv Bot,,Not started,Empty state,243,The bot is still loading as certain conditions have yet to be fulfilled.
+"Your account balance is below the minimum withdrawal limit. To withdraw funds:
+• Deposit more funds into this account; or
+• Transfer funds from another account.",,,,,,,Not started,,244,
+Enter an amount equal to or higher than [value].,,,,,,,Not started,,245,
+Verify with email,,,,,,,Not started,,246,
+Easily exchange USD with local currency using Deriv P2P,,,,,P2P,,Not started,Inline message: Description,247,Buy and sell USD with your local currency via Deriv P2P.
+Enter an amount equal to or lower than [value].,,,,,,,Not started,,248,
+"Leave page?
+Are you sure you want to leave this page? Changes made will not be saved.",,,,,,,Not started,,249,
+P2P registration requires a verified phone number,,,,,P2P,,Not started,Error message,250,
+Insufficient balance,,,,,,,Not started,,251,
+Make your first deposit and start trading,,,,,Trader’s Hub,,Not started,,252,
+Multipliers: Leverage your trading; risk only what you put in.,,,,,"EU wallet, Multipliers account",,Not started,Infobox,253,
+"Transaction processing
+Your deposit is being processed securely. You can continue using your account. We’ll notify you when it’s complete.",,,,,,,Not started,,254,
+P2P services are unavailable in your country.,,,,,"P2P, V2, not available, restricted countries",,Not started,Error message,255,"We’re sorry, but P2P services are not available in your country. Due to regional restrictions, you are unable to access this feature. If you believe this is an error, please contact our support team for further assistance."
+"Withdrawals currently unavailable
+This may be due to maintenance or unsupported payment methods. To add a new payment method, make a small deposit.
+Note: Deposits made through payment agents, Deriv P2P, or cryptocurrency must be withdrawn using their respective pages.",,,,,"Payment methods, cashier, withdrawal not available",,Not started,Maintenance message,256,
+Verify with passkey,,,,,,,Not started,,257,
+Deposit funds,,,,,Deriv GO,,Not started,,258,
+Your import failed due to an invalid file. Upload a complete file in XML format.,,,,,Deriv Bot,,Not started,Error message,259,"The strategy file you attempted to upload is invalid. Please check the file format and completeness, and try again."
+Transfer funds,,,,,Deriv GO,,Not started,Secondary button,260,
+"MT5 account alert
+Trading on your MT5 account will be disabled in 5 days due to inactivity. Log in now to keep it active.",,,,,"MT5, PN, Push Notification, inactive account",,Not started,"Inline message, warning",261,
+CFDs: Your all-in-one access to financial and derived instruments.,,,,,"EU wallet, Multipliers account",,Not started,Infobox,262,
+"Verification in progress
+Your documents require additional review. We’ll get back to you in 1–3 business days.",,,,,"Onfido, POI, fail verification, failed attempts",,Not started,Error message,263,"Your documents were submitted successfully
+We’ll review your documents and notify you of its status within 1–3 working days."
+"Deriv Trader: Custom charts, low-entry costs.",,,,,"EU wallet, Multipliers account",,Not started,Infobox,264,
+Step into real trading,,,Landing on deriv v2 and seeing a banner,,V2,UX%20content%20bricks/Screenshot_2025-10-01_at_12.01.45.png,Not started,CTA,265,Experience real trading / Your path to real trading
+Set up and verify profile,,,,,V2,UX%20content%20bricks/Screenshot_2025-10-01_at_12.01.45%201.png,Not started,Banner: Title,266,
+Come back anytime - You can always revisit the guide in Support under Guide.,,,,,V2,UX%20content%20bricks/Screenshot_2025-10-01_at_12.12.05.png,Not started,Coachmark,267,
+Help Centre,,,,,V2,UX%20content%20bricks/Screenshot_2025-10-01_at_12.04.02.png,Not started,CTA,268,Help centre / Help center
+"Everything in one portfolio - Manage your Wallets, trading accounts and all your transactions instantly and easily.",,,,,V2,UX%20content%20bricks/Screenshot_2025-10-01_at_12.05.23.png,Not started,Coachmark,269,"Header: Portfolio at a glance
+Body: Keep Wallets, trading accounts, deposits and withdrawals organised in one view."
+Trade CFDs - Access global markets with leverage up to 1:1000 on MT5 and cTrader.,,,,,V2,UX%20content%20bricks/Screenshot_2025-10-01_at_12.08.58.png,Not started,Coachmark,270,
+"Trade Options - Access 80+ assets, from Forex and Stocks to Commodities and exclusive Derived Indices.",,,,,V2,UX%20content%20bricks/Screenshot_2025-10-01_at_12.05.23%201.png,Not started,Coachmark,271,
+Explore more - Discover everything available for you,,,,,V2,UX%20content%20bricks/Screenshot_2025-10-01_at_12.11.32.png,Not started,Coachmark,272,
+Total value,,,,,V2,UX%20content%20bricks/Screenshot_2025-10-01_at_12.15.29.png,Not started,,273,Total balance / Combined balance
+"Activate Options account - To start trading options with real funds, activate your Options account - Activate",,,,,V2,UX%20content%20bricks/Screenshot_2025-10-01_at_12.17.22.png,Not started,Action screen: Title and description,274,
+There’s already an account with this email. Log in or enter another email.,,,,,V2,UX%20content%20bricks/Screenshot_2025-10-01_at_12.18.11.png,Not started,Field error,275,
+,,,,,,,Not started,,276,
+Your home address must match your current location and any document you may upload later.,,,,,V2,UX%20content%20bricks/Screenshot_2025-10-02_at_14.04.11.png,Not started,Inline message,277,
+Incorrect code. You have [x] attempts left.,,,,,V2,UX%20content%20bricks/Screenshot_2025-10-02_at_14.04.56.png,Not started,Field error,278,
+There’s already an account linked to this number. Try a different number.,,,,,V2,UX%20content%20bricks/Screenshot_2025-10-02_at_14.06.13.png,Not started,Field error,279,
+Deposits under the minimum amount cannot be completed and the funds will be lost.,,,,,V2,UX%20content%20bricks/Screenshot_2025-10-02_at_14.08.57.png,Not started,Banner: Warning message,280,
+This number is already in use.,,,,,V2,UX%20content%20bricks/Screenshot_2025-10-21_at_11.25.45.png,Not started,Field error,281,This number is already registered.
+This email is already in use.,,,,,V2,UX%20content%20bricks/Screenshot_2025-10-21_at_11.26.24.png,Not started,Field error,282,This email is already registered.
+Incorrect phone number,,,,,V2,UX%20content%20bricks/Screenshot_2025-10-28_at_15.01.58.png,Not started,Field error,287,Invalid phone number
+"Title: Deriv P2P balance
+Body: Your Deriv P2P balance is made up of:
+• Funds you received from buying USD on Deriv P2P.
+• Profits from your trades, which you can sell to other Deriv P2P users.
+• Deposits you made through non-reversible payment methods.Note: Funds deposited using reversible payment methods, like credit cards, Maestro, Diners Club, ZingPay, Skrill, Neteller, Ozow, and UPI QR, will not appear in your P2P balance.",,,The current message we display when Deriv P2P users check their available Deriv P2P balance is not clear. To do: Improve the message. Make it clear that their Deriv P2P balance cannot be withdrawn or refunded back to the original payment method.,,"MT5, P2P",UX%20content%20bricks/Screenshot_2026-01-23_at_15.23.44.png,Not started,Banner: Title,288,
+"Important: Verify the address on this page before each deposit to avoid losing funds. Occasionally, the address could be updated.",,,,,All,UX%20content%20bricks/Screenshot_2026-01-23_at_15.32.52.png,Not started,Banner,289,Announcement: We have updated our address. Please use this new address to avoid any disruptions.
+A better Deriv P2P experience,,,Mandatory update for Deriv P2P app,,P2P,,Not started,Banner: Title,290,
+Pause my ads,,,Toggle for pausing ads and resuming ads. This is a discussion with the designer about whether we should use “pause” or “hide” for P2P ads.,,P2P,UX%20content%20bricks/Screenshot_2026-02-25_at_09.54.36.png,Not started,Toggle,291,Hide my ads
+Update the app to get the latest improvements: • Smoother performance • Stronger protection • Refreshed design,,,Mandatory update for Deriv P2P app,,P2P,,Not started,Banner: Body,292,
+All your ads are paused,,,"This is a modal that shows up after the user clicks “Pause my ads” toggle in Deriv P2P. In this modal, the logic is that the ads have been paused when they activate the toggle. This modal is basically to reinstate / confirm to users that the ads have been paused.",,P2P,UX%20content%20bricks/Screenshot_2026-02-24_at_11.50.39.png,Not started,"Banner: Title, Modal",293,All your ads will be paused
+Your active ads won’t appear in the marketplace. You won’t receive new orders until you turn this off.,,,"This is a modal that shows up after the user clicks “Pause my ads” toggle in Deriv P2P. In this modal, the logic is that the ads have been paused when they activate the toggle. This modal is basically to reinstate / confirm to users that the ads have been paused.",,P2P,UX%20content%20bricks/Screenshot_2026-02-24_at_11.50.39.png,Not started,"Banner: Body, Modal",294,
+Only 1 Alipay account allowed,,,,,P2P,UX%20content%20bricks/Screenshot_2026-02-25_at_10.03.29.png,Not started,Label,295,Only 1 Alipay allowed
+Use browser to log in,,,"When user tries to do social login via app, we give them a warning mentioning that social login is currently unavailable, and that they can continue to log in via browser instead.",,V2,,Not started,"Error, Error message: title, Modal",296,
+,,,,,V2,,Not started,,297,
+Log in via browser,,,"When user tries to do social login via app, we give them a warning mentioning that social login is currently unavailable, and that they can continue to log in via browser instead.",,V2,,Not started,"CTA, Error, Modal",298,
+Social login is not available at the moment. Continue by logging in via your browser with your Deriv account.,,,"When user tries to do social login via app, we give them a warning mentioning that social login is currently unavailable, and that they can continue to log in via browser instead.",,V2,,Not started,"Error, Error message: description, Modal",299,
+No funds available to transfer yet. Funds deposited using refundable payment methods cannot be transferred to P2P Wallet.,Body,Page section,This is Deriv P2P case. User still has balance but the balance was deposited using reversible payment method and therefore cannot be transferred to P2P Wallet.,Guidance,P2P,,Done,"Warning title, Banner",300,No transferable funds yet for P2P wallet. Funds deposited via reversible payment methods cannot be moved to P2P wallet.
+Only 300.00 USD is available to transfer. The rest was deposited using refundable payment methods.,Body,Page section,This is Deriv P2P case. User still has a lot of balance but the amount of money that can be transferred is only 300 USD because the rest of the balance was deposited using a reversible payment method.,Guidance,P2P,,Done,"Warning title, Banner",301,Only 300.00 USD is available to transfer. The rest of your balance is from reversible deposits and cannot be moved to P2P wallet.
