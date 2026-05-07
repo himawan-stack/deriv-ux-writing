@@ -1,4 +1,4 @@
-[SKILL.md](https://github.com/user-attachments/files/26749322/SKILL.md)
+[SKILL (2).md](https://github.com/user-attachments/files/27468043/SKILL.2.md)
 ---
 name: deriv-ux-writing
 description: "Write, audit, or rewrite UX copy for Deriv products - buttons, error messages, empty states, tooltips, modals, onboarding flows, form labels, success/failure states, notifications, and microcopy. Use when writing interface copy, auditing UI text, naming buttons, drafting error messages, or writing tooltips for Deriv product terms. Trigger on: write a button label, what should this error say, rewrite this tooltip, UX copy, microcopy, UI text, in-app copy, or any request involving words inside a product interface. Always fetch the live Deriv glossary before writing copy involving any Deriv product term, trade type, or feature name."
@@ -10,21 +10,17 @@ Write interface copy that earns trust, reduces friction, and drives action. Ever
 
 ---
 
-## Before you write: check the copy bricks and glossary
-
-**Always check `References/copy-bricks-1.csv` (or `copy-bricks-2.csv`) first** for any copy request. The copy bricks are a repository of approved UX copy for Deriv products. If a brick exists for the exact element and context you're writing for, use the preferred copy — do not rewrite it.
-
-See the [Copy Bricks](#copy-bricks) section below for how to search and apply them.
+## Before you write: check the glossary
 
 **Always read `References/product-glossary.md` first** if the copy involves any of these:
 
 - A trade type (CFD, Accumulator options, Multipliers, Digital options, Vanilla options, etc.)
 - A Deriv-specific feature (Deal cancellation, Growth rate, Stop loss, Indicative price, etc.)
-- A platform name (Deriv MT5, Deriv cTrader, Deriv GO, Deriv One, SmartTrader, etc.)
+- A platform name (Deriv MT5, Deriv cTrader, Deriv GO, SmartTrader, etc.)
 - A proprietary market (Derived indices, Synthetic indices, Crash/Boom indices, etc.)
 - A Deriv Tokens term (Creator, Buyer, NAV, High-water mark, Minting, etc.)
 
-**If the copy involves Deriv One**, read `References/deriv-one-product-context.md` first. It contains MVP scope boundaries, approved tooltips, error patterns, empty states, push notifications, onboarding copy, connection states, and restricted terms specific to this platform. Writing Deriv One copy without checking this file risks referencing features that don't exist yet.
+The glossary covers Deriv's own terminology only. For third-party platforms Deriv references in its UI -- App Store, Google Play, HUAWEI AppGallery, and similar -- the rules live in this skill (see "App store names" under "Deriv terminology -- hard rules"). If a third-party name isn't covered there either, ask the brand team before writing.
 
 ### Glossary structure
 
@@ -65,7 +61,7 @@ Deriv's voice is **friendly and direct, never condescending**. In UX copy specif
 |---------|------|---------|
 | Onboarding | Warm, encouraging | "Let's get your account set up. It takes about 3 minutes." |
 | Trade placement | Focused, efficient | "Place trade" not "Let's go!" |
-| Error / failure | Calm, helpful | "We hit a snag. Try again or contact support." |
+| Error / failure | Calm, helpful | "Something went wrong. Try again or contact support." |
 | Financial loss / stop-out | Steady, factual | "Your position has been closed. The market reached your stop-out level." |
 | Success | Confirming, brief | "Withdrawal submitted. We'll process it within 1-3 business days." |
 | Empty state | Inviting, low pressure | "Your trades will appear here. Ready to start?" |
@@ -187,6 +183,7 @@ The button label is the contract between the product and the trader. It answers:
 - Match the label to the outcome, not the intent
 - Never: "Click here", "Submit", "OK", "Yes", "No", "Proceed"
 - Destructive actions: name what's being destroyed
+- Verb forms: write the action as two words when it's a verb. "Log out", "Log in", "Sign up", "Sign in" -- not "Logout", "Login", "Signup", "Signin." (Noun forms keep the one-word version: "the login screen", "your sign-up details.")
 
 | Context | ❌ | ✅ | Char count |
 |---------|---|-----|-----------|
@@ -202,6 +199,19 @@ The button label is the contract between the product and the trader. It answers:
 | Activate deal cancellation | Enable | Cancel this trade | 17 |
 | Close a trade early | Close | Close trade | 11 |
 | Add funds | Add money | Deposit funds | 13 |
+| Download iOS app | Download | Get it on the App Store | 23 |
+| Download Android app | Download | Get it on Google Play | 21 |
+| Download Huawei app | Download | Get it on HUAWEI AppGallery | 27* |
+| App download (store-agnostic) | Download | Download Deriv GO | 17 |
+
+\* "Get it on HUAWEI AppGallery" exceeds the 20-char mobile primary button limit. Use it on desktop or where the button can wrap to two lines. For tight mobile slots, use a generic "Download Deriv GO" CTA above the three store badges instead.
+
+**Where the "the" rule does and doesn't apply in CTAs:**
+
+- ✅ Body copy and self-written CTAs: "Available on the App Store, Google Play, and HUAWEI AppGallery." (62 chars -- body copy, not a button)
+- ✅ Self-written button: "Get it on the App Store"
+- ❌ Self-written button without "the": "Get it on App Store"
+- ⚠️ Official store badges: use the locked-up badge text as supplied -- do not edit. The "the" rule applies only to copy you write.
 
 ### Error messages
 
@@ -229,7 +239,6 @@ Errors are the most read copy in the product. Traders read them under stress and
 - Never use error codes in the message body (logs only)
 - For financial loss events: factual and steady, not apologetic or alarming
 - Always include what to do next -- even if it's just "Try again"
-- **Never use "Something went wrong"** — it is banned. Always name what failed. See the banned words section.
 
 ### Tooltips and helper text
 
@@ -368,35 +377,9 @@ These are regulatory and brand rules. No exceptions.
 | soon | specific timeframe ("within 2 business days") | Precision |
 | a small fee | the actual fee amount | Specificity -- always show the number |
 | not available in your country | available in selected countries | Positive framing -- hard rule |
-| something went wrong | be specific about what failed | Too vague — gives traders nothing to act on. Always name the action that failed and what to do next. e.g. "Your trade didn't go through. Try again." If the cause is truly unknown: "We hit a snag. Try again or contact support." |
-| unsuccessful | not possible | "Unsuccessful" implies a general failure. Use "not possible" when an action can't be completed due to specific requirements or parameters — e.g. "Transfer not possible" not "Transfer unsuccessful." |
+| advertiser / advertisers (Deriv P2P) | seller / sellers | Deriv P2P pairs sellers with buyers. "Advertiser" is too vague and reads promotional. See "Deriv P2P -- role terminology" below. |
 
 **On "stake":** Allowed as a UI label for the input field and in trade mechanics context. The banned substitution ("initial capital") applies in regulatory/compliance-facing copy. If unsure, check with compliance.
-
-### Banned words -- Deriv P2P
-
-These apply specifically to Deriv P2P copy. They reflect agreed terminology with the P2P design team.
-
-| ❌ Never | ✅ Instead | Why |
-|---------|-----------|-----|
-| hide ads | pause ads | "Hide" implies the ad disappears entirely. "Pause" correctly communicates that the ad still exists but is temporarily inactive. |
-| advertisers | sellers | "Advertisers" sounds promotional and is too vague. Use "sellers" to match the opposing term "buyers" — the P2P marketplace is built around this buyer/seller pairing. |
-
-**Note on "Ads":** The term "Ads" (capital A) is approved for use in Deriv P2P when referring to listings. The ban on "advertisers" does not extend to "Ads" itself — only to the word used for the people posting them.
-
-### Restricted terms -- Deriv One
-
-These apply on top of the global banned words above. Full details in `References/deriv-one-product-context.md`.
-
-| ❌ Never in Deriv One copy | ✅ Instead | Why |
-|---------------------------|-----------|-----|
-| cTrader | (omit entirely) | Backend is cTrader, but the brand is Deriv One. Never expose the third-party name in user-facing copy. |
-| demo account (MVP) | (omit entirely) | No demo in MVP. Don't reference until Phase 1.5. |
-| deposit / withdraw (inside Deriv One) | Add funds via your Deriv account | No in-app cashier in MVP. Deep-link to Deriv Cashier. |
-| pending order / limit order / stop order (MVP) | (omit entirely) | Only market orders in MVP. Don't reference unavailable order types. |
-| forex / stocks / commodities (MVP) | Synthetic Indices | Only Synthetic Indices at launch. Don't mention markets that aren't live yet. |
-
-**Note:** Items marked "(MVP)" will be removed from this list as those features ship. Check the product context file for the latest phase status.
 
 ### Platform names -- exact capitalisation
 
@@ -412,10 +395,104 @@ These appear in error messages, account selectors, help text, and onboarding acr
 | SmartTrader | Smart Trader, Smarttrader |
 | Deriv Nakala | Nakala alone |
 | Deriv P2P | DerivP2P, Deriv p2p |
-| Deriv One | Deriv one, DerivOne, D1, Deriv 1, deriv one |
 
-| Swap-free | Swap-Free, swap-free, SwapFree, Swap free |
-| Zero Spread | Zero spread, zero-spread, ZeroSpread, zero spread |
+### Account-type modifiers -- placement
+
+Modifiers like "real" and "demo" go before the full Deriv platform name, never inside it. The platform name is a locked proper noun and must not be split.
+
+| ✅ Correct | ❌ Never |
+|-----------|---------|
+| real Deriv cTrader account | Deriv real cTrader account |
+| demo Deriv MT5 account | Deriv demo MT5 account |
+| real Deriv GO account | Deriv real GO account |
+| demo Deriv Bot account | Deriv demo Bot account |
+
+The modifier itself is lowercase ("real", "demo") -- it's a descriptor, not part of the product name. Capitalise only when it begins a sentence:
+
+- ✅ "Real Deriv cTrader account is available"
+- ✅ "Activate your real Deriv cTrader account now"
+- ❌ "Activate your Real Deriv cTrader account now"
+
+This rule applies to all Deriv platforms: Deriv MT5, Deriv cTrader, Deriv GO, Deriv Bot, Deriv Trader, SmartTrader, Deriv Nakala, Deriv P2P.
+
+### Deriv P2P -- role terminology
+
+Deriv P2P is a peer-to-peer marketplace where users exchange Deriv funds for local currency. The platform is built around two roles: **sellers** and **buyers**. Use these terms consistently across all Deriv P2P copy.
+
+| Role | Definition | Use this | Never use |
+|------|-----------|----------|-----------|
+| Seller | A user who posts an ad to sell their Deriv funds for local currency | seller / sellers | advertiser / advertisers |
+| Buyer | A user who responds to an ad to buy Deriv funds | buyer / buyers | -- |
+| Listing | The post a seller creates with their rate, limits, and payment methods | ad / ads (capital A when starting a sentence) | advertisement, listing, post |
+
+**Why "sellers" and not "advertisers":**
+
+- **It pairs.** "Sellers" sits naturally opposite "buyers" -- the marketplace is built on this pairing. "Advertiser" has no clean opposite.
+- **It's specific.** "Advertiser" is vague -- in most contexts it implies someone running a marketing campaign. "Seller" tells the user exactly what the person does.
+- **It's not promotional.** "Advertiser" reads like marketing language. Deriv P2P is a transactional marketplace, not a promotional surface.
+
+**Roles are reversible.** The same user can be a seller on one transaction and a buyer on another. Don't write copy that assumes a user is permanently one or the other -- e.g. avoid "as a seller, you will..." in onboarding. Frame role-specific guidance around the action: "When you sell, ..." / "When you buy, ..."
+
+**On "ads":**
+
+- The term `ads` (and `Ads` at the start of a sentence) is the approved word for listings on Deriv P2P. The ban on "advertiser" does not extend to "ad" or "ads."
+- Capitalise as `Ads` only when it begins a sentence or is a navigation/tab label following sentence case rules. Inline, it's lowercase: "Browse ads," "your active ads."
+
+**Examples in context:**
+
+| ❌ | ✅ |
+|----|-----|
+| See when advertisers were last online | See when sellers were last online |
+| Top-rated advertisers in your region | Top-rated sellers in your region |
+| You have 3 active advertisements | You have 3 active ads |
+| Become an advertiser on Deriv P2P | Post your first ad on Deriv P2P |
+| Advertiser rating: 4.8 | Seller rating: 4.8 |
+| Block this advertiser | Block this seller |
+
+> **Source note:** This subsection reflects guidance surfaced in the Deriv P2P workspace. If a Deriv P2P feature spec uses "advertiser" in upstream documentation (engineering tickets, API responses, designer files), translate to "seller" at the UI layer -- internal naming and user-facing copy don't have to match.
+
+### App store names -- exact capitalisation and article use
+
+These appear in download CTAs, footers, onboarding, and "get the app" prompts. Both the spelling and the article ("the") are part of the rule.
+
+#### Spelling and capitalisation
+
+| ✅ Correct | ❌ Never |
+|-----------|---------|
+| App Store | Apple Store, App store, Appstore, App Storage, iOS Store |
+| Google Play | Play Store, Google Store, Google play, GooglePlay, Google Play Store |
+| HUAWEI AppGallery | Huawei App Gallery, Huawei AppGallery, HUAWEI App Gallery, AppGallery alone |
+
+"App Store" and "Google Play" use Title Case as proper nouns -- this is one of the few exceptions to the sentence case rule. "HUAWEI" is always all caps; "AppGallery" is one word with a capital A and capital G.
+
+#### The "the" rule
+
+Always use **"the"** before an app store name. When two or more app store names appear in the same list, "the" goes on the first name only -- not repeated before each one.
+
+| Scenario | ✅ Correct | ❌ Never |
+|----------|-----------|---------|
+| Single store -- App Store | Download from the App Store. | Download from App Store. |
+| Single store -- Google Play | Get it on the Google Play. | Get it on Google Play. |
+| Single store -- AppGallery | Find it on the HUAWEI AppGallery. | Find it on HUAWEI AppGallery. |
+| Two stores | Available on the App Store and Google Play. | Available on the App Store and the Google Play. |
+| Three stores | Available on the App Store, Google Play, and HUAWEI AppGallery. | Available on App Store, Google Play, and HUAWEI AppGallery. |
+| Three stores -- repeated "the" | Available on the App Store, Google Play, and HUAWEI AppGallery. | Available on the App Store, the Google Play, and the HUAWEI AppGallery. |
+| Mid-sentence | Find Deriv GO on the App Store. | Find Deriv GO on App Store. |
+
+#### Exception: badge CTAs and lockups
+
+Official download badges are graphic lockups -- not editable copy. Use them as supplied by Apple, Google, and Huawei without modification. Two things to know:
+
+- The "the" rule applies to body copy, button labels you write yourself, and surrounding text -- not to the locked-up badge artwork.
+- Some official badges use forms that wouldn't pass this skill's rules in body copy (for example, Huawei's badge reads "Explore it on AppGallery" without "HUAWEI" and without "the"). That's fine *inside the badge* because it's brand artwork. The moment you write the same phrase in body copy or a custom button, the standard rules apply: "HUAWEI AppGallery" with "the."
+
+#### Edge cases
+
+- **Possessives:** Avoid "the App Store's policy" in UI copy -- rephrase as "App Store policy" or "policy on the App Store." Possessives of proper nouns with "the" read awkwardly.
+- **Starting a sentence:** "The" stays lowercase mid-sentence and is capitalised only when it begins a sentence: "The App Store version is updated weekly."
+- **Headings and button labels:** The "the" rule still applies. ✅ "Get it on the App Store" -- ❌ "Get it on App Store." If character limits force a cut, switch to a generic CTA (e.g. "Download Deriv GO") rather than dropping "the" or shortening the store name -- both are part of the brand rule.
+- **Plural / generic reference:** When referring to app stores generically (not by name), lowercase and no special article rule: "available in major app stores." The rule only applies when naming a specific store.
+- **Spacing in lists:** Use a single space after each comma. Never two spaces, never a missing space. ✅ "the App Store, Google Play, and HUAWEI AppGallery" -- ❌ "the App Store,  Google Play, and HUAWEI AppGallery" or "the App Store ,Google Play, and HUAWEI AppGallery."
 
 ### Trade type capitalisation
 
@@ -426,16 +503,19 @@ These appear in error messages, account selectors, help text, and onboarding acr
 - Vanilla options, Lookbacks options -- lowercase "options"
 - Rise/Fall, Higher/Lower, Ends Between, Stays Between -- as shown
 
-### Derived indices -- use the right level
+### Derived Indices -- use the right level
 
 | Use | When |
 |-----|------|
-| Derived indices | Umbrella term for the whole category |
-| Synthetic indices | The simulated subset (Volatility, Crash/Boom, Jump, etc.) |
-| Basket indices | Currency basket products |
+| Derived Indices | Umbrella term for the whole category |
+| Synthetic Indices | The simulated subset (Volatility, Crash/Boom, Jump, etc.) |
+| Basket Indices | Currency basket products |
+| Crypto Indices | Cryptocurrency-based indices |
 | Derived FX | Simulated forex products |
 
-Never use "Synthetic indices" as a synonym for "Derived indices." They're a subset, not the whole.
+Never use "Synthetic Indices" as a synonym for "Derived Indices." They're a subset, not the whole.
+
+Note: These category names use Title Case as proper nouns -- one of the exceptions to the sentence case rule, alongside platform names and app store names.
 
 ### British English -- apply consistently
 
@@ -450,66 +530,33 @@ Never use "Synthetic indices" as a synonym for "Derived indices." They're a subs
 | practise (verb) | practice (verb) |
 | realise | realize |
 
+### Currency names -- lowercase
+
+Currency names are common nouns, not proper nouns. Lowercase the currency word even when the country/region prefix is capitalised or abbreviated.
+
+| ✅ Correct | ❌ Incorrect |
+|-----------|-------------|
+| US dollar | US Dollar |
+| Australian dollar | Australian Dollar |
+| euro | Euro |
+| pound sterling | Pound Sterling |
+| Japanese yen | Japanese Yen |
+
+This applies to body copy, labels, tooltips, and modal text. For tight spaces, use the ISO code instead (USD, EUR, GBP, JPY, AUD).
+
 ### Sentence case -- everywhere
 
 Buttons, headings, labels, navigation, tab names, modal titles -- all sentence case. No Title Case except proper nouns and product/platform names.
 
+Proper nouns include Deriv product/platform names ("Deriv MT5", "Deriv GO"), Deriv indices category names ("Derived Indices", "Synthetic Indices", "Basket Indices", "Crypto Indices"), and third-party platform names ("App Store", "Google Play", "HUAWEI AppGallery"). These keep their official capitalisation even mid-sentence.
+
 ✅ "Your account settings"
 ✅ "Deposit funds"
 ✅ "Trade on Deriv MT5"
+✅ "Get it on the App Store"
 ❌ "Your Account Settings"
 ❌ "Deposit Funds"
-
----
-
-## Copy bricks
-
-Copy bricks are a repository of approved UX copy for Deriv products. Each brick is a real, shipped, or approved string — confirmed through design and compliance — so they are the highest-confidence source for copy decisions.
-
-The bricks live in two reference files with identical data, just different column ordering:
-- `References/copy-bricks-1.csv`
-- `References/copy-bricks-2.csv`
-
-Use whichever is easier to query for the task at hand.
-
-### How to read a brick
-
-Each row contains:
-
-| Column | What it tells you |
-|--------|-------------------|
-| `✅ Preferred copy` | The approved string to use. Use this verbatim or as the authoritative model. |
-| `❌ Less preferred copy` | Alternatives that have been rejected or ranked lower. Avoid these. May contain multiple options separated by `•` or `\n`. |
-| `UX Element` | Where the copy appears — e.g. "Section title", "Action screen: title", "Ghost button", "Sub-section title" |
-| `Component type` | The UI pattern — Page section, Modal / Bottomsheet, or Coachmark |
-| `Component slot` | The role within the component — Title, CTA, Label, Body |
-| `Description` | Context for when this brick applies — read this to confirm it's the right match |
-| `Intent` | The purpose of the copy: **Guidance** (directs the user), **Success** (confirms a completed action), **Confirmation** (asks the user to verify before acting) |
-| `Product` | Which Deriv product(s) this brick applies to — e.g. UAE, MT5, Wallets, P2P, Deriv GO, SmartTrader |
-| `Status` | Done = shipped or approved; Not started = draft |
-| `Unique ID` | Numeric ID for referencing a specific brick |
-
-### How to use copy bricks
-
-**1. Search by element and context first.** Match on `UX Element` + `Component type` + `Intent` + `Product`. A brick only applies if the description matches the user's context.
-
-**2. Use the preferred copy.** If a matching brick exists with Status = Done, the `✅ Preferred copy` is the answer. Do not rewrite it unless the user explicitly asks for a variant.
-
-**3. Flag less preferred copy.** If the user has submitted copy that matches a `❌ Less preferred copy` value, flag it and recommend the preferred alternative. Explain briefly why (e.g. passive voice, wrong framing, imprecise).
-
-**4. No exact match? Write fresh — guided by the bricks.** If no brick covers the exact context, treat the closest bricks as tone and pattern references, then apply the writing principles in this skill.
-
-**5. Templated bricks with placeholders.** Some bricks use `<variable>` syntax, e.g. `<amount> <currency> transferred from your <currency> Wallet.` Replace placeholders with the actual values or keep them as tokens if writing template copy.
-
-### When bricks take precedence over your own writing
-
-| Situation | Action |
-|-----------|--------|
-| Exact element + product + intent match, Status = Done | Use the preferred copy as-is |
-| Close match but different product | Use as a strong pattern reference; adapt minimally |
-| User submits copy matching a less-preferred brick | Flag it, recommend the preferred copy |
-| No matching brick | Write from scratch using the principles in this skill |
-| User wants to deviate from a preferred brick | Flag the deviation and confirm intent — bricks reflect approved decisions |
+❌ "Get it on the app store"
 
 ---
 
@@ -532,8 +579,12 @@ Run this before any copy ships:
 **Deriv rules**
 - [ ] Does it avoid the banned words (invest, win, click here)?
 - [ ] Are platform and product names capitalised correctly?
+- [ ] If "real" or "demo" appears with a platform name: is the modifier placed before the full platform name (e.g. "real Deriv MT5 account"), not splitting it?
+- [ ] If app store names appear: is each one spelled correctly (App Store, Google Play, HUAWEI AppGallery) and is "the" used before the first one only?
+- [ ] If the copy is for Deriv P2P: does it use "seller / buyer" (never "advertiser") and "ads" (never "advertisements")?
 - [ ] Is it sentence case?
 - [ ] Is it British English?
+- [ ] Are currency names lowercase (US dollar, euro, yen) unless using the ISO code?
 - [ ] Does it use positive framing for restrictions?
 
 **Mobile**
@@ -567,12 +618,6 @@ Use a table with columns: Screen / Element / Copy / Char count / Notes
 
 ## References
 
-`References/copy-bricks-1.csv` — Repository of 295 approved UX copy strings across Deriv products. Columns: `✅ Preferred copy`, `❌ Less preferred copy`, `UX Element`, `Component type`, `Component slot`, `Description`, `Intent`, `Product`, `Status`, `Unique ID`. **Check this first for any copy request before writing from scratch.**
-
-`References/copy-bricks-2.csv` — Same 295 copy bricks as copy-bricks-1.csv, with different column ordering. Use whichever is easier to query for the task at hand.
-
-`References/product-glossary.md` — Deriv-approved definitions for all trade types, features, platforms, and markets. Includes Deriv One platform terms. Last updated April 2026. Each entry includes: **Topic** (product area), **Definition** (source of truth for tooltip and helper text copy), and **EU availability** (Available / Not available in EU — apply as described in the "Before you write" section above). **Read this before writing copy that involves any product term.**
-
-`References/deriv-one-product-context.md` — Product context, MVP scope, and approved UX copy patterns for Deriv One. Includes: tooltips for info icons, error messages, empty states, push notifications, modals, onboarding/activation copy, connection states, and restricted terms. **Read this before writing any Deriv One copy.**
+`References/product-glossary.md` — Deriv-approved definitions for all trade types, features, platforms, and markets. Last updated March 2026. Each entry includes: **Topic** (product area), **Definition** (source of truth for tooltip and helper text copy), and **EU availability** (Available / Not available in EU — apply as described in the "Before you write" section above). **Read this before writing copy that involves any product term.**
 
 For formatting rules (dates, currency, abbreviations) and content-type constraints (email subject lines, push notification limits): refer to the Deriv Content Style skill.
