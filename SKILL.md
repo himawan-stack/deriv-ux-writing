@@ -1,4 +1,4 @@
-[SKILL (2).md](https://github.com/user-attachments/files/27468043/SKILL.2.md)
+[SKILL.md](https://github.com/user-attachments/files/27624685/SKILL.md)
 ---
 name: deriv-ux-writing
 description: "Write, audit, or rewrite UX copy for Deriv products - buttons, error messages, empty states, tooltips, modals, onboarding flows, form labels, success/failure states, notifications, and microcopy. Use when writing interface copy, auditing UI text, naming buttons, drafting error messages, or writing tooltips for Deriv product terms. Trigger on: write a button label, what should this error say, rewrite this tooltip, UX copy, microcopy, UI text, in-app copy, or any request involving words inside a product interface. Always fetch the live Deriv glossary before writing copy involving any Deriv product term, trade type, or feature name."
@@ -451,6 +451,52 @@ Deriv P2P is a peer-to-peer marketplace where users exchange Deriv funds for loc
 
 > **Source note:** This subsection reflects guidance surfaced in the Deriv P2P workspace. If a Deriv P2P feature spec uses "advertiser" in upstream documentation (engineering tickets, API responses, designer files), translate to "seller" at the UI layer -- internal naming and user-facing copy don't have to match.
 
+### Deriv P2P -- ad status terminology
+
+When a Deriv P2P user runs out of funds in their P2P Wallet, their sell ads stop appearing to buyers. Describing this state correctly matters: three different words have surfaced across engineering, product, and design — and only one is accurate from the user's POV.
+
+| Term | Meaning | Use in UX copy? |
+|------|---------|-----------------|
+| hidden | The ad still exists and is active in the system, but doesn't appear in the marketplace because the seller has no funds to back it | ✅ Yes — this is the approved term |
+| paused | Implies the seller intentionally stopped the ad, or that the ad object has been deactivated | ❌ No — wrong on both counts. The ad is still active; the user didn't pause anything |
+| excluded | Technically accurate but reads punitive, like the seller did something wrong | ❌ No — avoid in user-facing copy |
+| inactive | Suggests the ad has been deactivated or expired | ❌ No — the ad is still active; only its visibility changed |
+
+**Why "hidden" is correct:**
+
+- **It describes what the buyer sees.** The ad is gone from the marketplace surface. That's what "hidden" means to a user.
+- **It's reversible without ceremony.** When the seller tops up, the ad reappears. "Unhide" maps cleanly to that action; "unpause" or "re-include" don't.
+- **It doesn't imply fault.** "Excluded" sounds like a penalty. "Paused" implies user action. "Hidden" is neutral — it describes a state, not a judgement.
+- **Only sell ads are affected.** Buy ads stay visible regardless of P2P Wallet balance. Always specify "sell ads" when writing about this state — not "your ads."
+
+**Approved patterns:**
+
+| Context | ✅ Correct | ❌ Avoid |
+|---------|-----------|---------|
+| Zero-balance banner body | Your sell ads are hidden from the marketplace when your P2P Wallet balance is zero. | Your ads pause automatically when your balance runs out. |
+| Restoration message | Transfer funds to your P2P Wallet to make your sell ads visible again. | Top up to reactivate your ads. |
+| Status label on the ad itself | Hidden | Paused / Inactive / Excluded |
+| Notification | Your sell ads are hidden. Top up your P2P Wallet to bring them back. | Your ads have been paused due to low balance. |
+
+**Edge case — manually paused ads:** If a seller deliberately turns off an ad themselves (a feature that may exist separately), "paused" is the correct word for *that* state. The distinction is who did it: the system hiding ads for zero balance is "hidden"; the user turning off their own ad is "paused." Don't merge the two.
+
+### Deriv P2P -- wallet and balance terminology
+
+The wallet that holds funds used for P2P trades is the **P2P Wallet** — capital P, capital W. This is the V2 term and replaces the V1 term "P2P balance," which is being retired.
+
+| ✅ Correct | ❌ Never |
+|-----------|---------|
+| P2P Wallet | P2P wallet, p2p wallet, P2P balance |
+| P2P Wallet balance | P2P balance |
+| No balance in P2P Wallet | No P2P balance |
+| Transfer funds to your P2P Wallet | Top up your P2P balance |
+
+**Rules:**
+
+- "P2P Wallet" is a proper noun (named wallet) — capitalise both words even mid-sentence. This sits alongside the other capitalisation exceptions: platform names, app store names, and Derived Indices category names.
+- "Balance" is a common noun — lowercase. So: "your P2P Wallet balance" (not "your P2P Wallet Balance").
+- If an older surface still says "P2P balance," flag it for migration. Don't perpetuate the V1 term.
+
 ### App store names -- exact capitalisation and article use
 
 These appear in download CTAs, footers, onboarding, and "get the app" prompts. Both the spelling and the article ("the") are part of the rule.
@@ -582,6 +628,8 @@ Run this before any copy ships:
 - [ ] If "real" or "demo" appears with a platform name: is the modifier placed before the full platform name (e.g. "real Deriv MT5 account"), not splitting it?
 - [ ] If app store names appear: is each one spelled correctly (App Store, Google Play, HUAWEI AppGallery) and is "the" used before the first one only?
 - [ ] If the copy is for Deriv P2P: does it use "seller / buyer" (never "advertiser") and "ads" (never "advertisements")?
+- [ ] If the copy is for Deriv P2P and describes ads disappearing from the marketplace: does it use "hidden" (never "paused", "excluded", or "inactive")?
+- [ ] If the copy is for Deriv P2P and references the wallet: is it "P2P Wallet" (capital W) and never "P2P balance"?
 - [ ] Is it sentence case?
 - [ ] Is it British English?
 - [ ] Are currency names lowercase (US dollar, euro, yen) unless using the ISO code?
@@ -618,6 +666,6 @@ Use a table with columns: Screen / Element / Copy / Char count / Notes
 
 ## References
 
-`References/product-glossary.md` — Deriv-approved definitions for all trade types, features, platforms, and markets. Last updated March 2026. Each entry includes: **Topic** (product area), **Definition** (source of truth for tooltip and helper text copy), and **EU availability** (Available / Not available in EU — apply as described in the "Before you write" section above). **Read this before writing copy that involves any product term.**
+`References/product-glossary.md` — Deriv-approved definitions for all trade types, features, platforms, and markets. Last updated May 2026. Each entry includes: **Topic** (product area), **Definition** (source of truth for tooltip and helper text copy), and **EU availability** (Available / Not available in EU — apply as described in the "Before you write" section above). **Read this before writing copy that involves any product term.**
 
 For formatting rules (dates, currency, abbreviations) and content-type constraints (email subject lines, push notification limits): refer to the Deriv Content Style skill.
